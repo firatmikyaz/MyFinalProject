@@ -39,7 +39,7 @@ namespace Business.Concrete
             //Yetkisi var mı ?
             //İş kodlarından geçtiğinde veri erişimi çağırır
 
-            if (DateTime.Now.Hour==21)
+            if (DateTime.Now.Hour == 02)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
